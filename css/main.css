@@ -20,7 +20,7 @@
  *  12. resume
  *  13. portfolio
  *  14. call-to-action section
- *  15. services
+ *  15. accomplishments
  *  16. stats
  *  17. contact
  *  18. footer
@@ -1820,6 +1820,7 @@ header .logo a {
 	-webkit-transition: all 0.5s ease-in-out;
 	-ms-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
+	background: rgba(0, 0, 0, 0.5);
 }
 
 #portfolio .folio-item-table {
@@ -1837,7 +1838,7 @@ header .logo a {
 	-ms-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
 	position: relative;
-	left: -100%;
+	left: 0;
 }
 
 #portfolio .folio-title {
@@ -2090,11 +2091,11 @@ header .logo a {
 
 /** 
  * ===================================================================
- * 15. services - (_layout.scss)
+ * 15. accomplishments - (_layout.scss)
  *
  * ------------------------------------------------------------------- 
  */
-#services {
+#accomplishments {
 	background: #313131 url(../images/bg.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -2104,7 +2105,7 @@ header .logo a {
 	color: white;
 	position: relative;
 }
-#services .overlay {
+#accomplishments .overlay {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -2114,42 +2115,42 @@ header .logo a {
 	opacity: .9;
 }
 
-#services .section-intro {
+#accomplishments .section-intro {
 	margin-bottom: 1.8rem;
 }
 
-#services .section-intro h1 {
+#accomplishments .section-intro h1 {
 	color: white;
 }
-#services .section-intro h5 {
+#accomplishments .section-intro h5 {
 	color: #FF0077;
 }
-#services .section-intro p {
+#accomplishments .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
 }
-.services-content {
+.accomplishments-content {
 	max-width: 1200px;
 }
-.services-list {
+.accomplishments-list {
 	margin-top: 1.2rem;
 	text-align: center;
 }
-.services-list .service {
+.accomplishments-list .service {
 	margin-bottom: 1.2rem;
 	padding: 0 30px;
 }
-.services-list .icon {
+.accomplishments-list .icon {
 	display: inline-block;
 	margin-bottom: 2.1rem;
 }
-.services-list .icon i {
+.accomplishments-list .icon i {
 	font-size: 5.4rem;
 	color: #FF0077;
 }
-.services-list h3 {
+.accomplishments-list h3 {
 	color: #FFFFFF;
 }
-.services-list .desc {
+.accomplishments-list .desc {
 	color: rgba(255, 255, 255, 0.6);
 }
 
