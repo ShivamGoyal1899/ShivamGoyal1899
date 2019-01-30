@@ -2428,6 +2428,9 @@ header .logo a {
 .contact-info h5 {
 	color: #FF0077;
 }
+.contact-info a {
+	color: #6e6e6e;
+}
 
 /**
  * loader animation - (_layout.scss)
