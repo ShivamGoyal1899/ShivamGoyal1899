@@ -161,6 +161,7 @@ p.lead {
 @media only screen and (max-width:768px) {
 	p.lead {
 		font-size: 1.7rem;
+		text-align: center;
 	}
 }
 em, i, strong, b {
@@ -1512,6 +1513,7 @@ header .logo a {
 }
 .intro-info .lead {
 	text-align: left;
+	text-align: center;
 	/*padding-left: auto;*/
 }
 
