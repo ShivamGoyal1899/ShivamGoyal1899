@@ -1,10 +1,5 @@
 /**
  * =================================================================== 
- *
- *  Kards v1.0 Main Stylesheet
- *  url: styleshout.com
- *  03-01-2016
- *  ------------------------------------------------------------------
  *  TOC:
  *  01. webfonts and iconfonts
  *  02. base style overrides
@@ -24,6 +19,8 @@
  *  16. stats
  *  17. contact
  *  18. footer
+ *  19. badges
+ *  20. scroll
  *
  * =================================================================== 
  */
@@ -2225,7 +2222,7 @@ header .logo a {
 @media only screen and (max-width:1024px) {
 	#stats .stat:nth-child(n) {
 		border-left: 1px solid rgba(255, 255, 255, 0.12);
-		padding-bottom: 1.5rem;
+		padding: 1.5rem;
 	}
 	#stats .stat:nth-child(3n+1) {
 		border: none;
@@ -2580,9 +2577,9 @@ footer .copyright span:last-child::after {
 	text-decoration: none;
 	border: 0 none;
 	display: block;
-	height: 6.6rem;
-	width: 6rem;
-	line-height: 6.6rem;
+	height: 3rem;
+	width: 3rem;
+	line-height: 3rem;
 	text-align: center;
 	background: #cc005f;
 	color: #FFFFFF;
@@ -2595,30 +2592,102 @@ footer .copyright span:last-child::after {
 	transition: all 0.3s ease-in-out;
 }
 #go-top a i {
-	font-size: 1.6rem;
+	font-size: 1.3rem;
 	line-height: inherit;
 }
 #go-top a:hover {
 	background: #000000;
 }
 
+/** 
+ * ===================================================================
+ * 19. badges - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- 
+ */
+#badges {
+	background: #FFFFFF;
+	padding-top: 7.2rem;
+	padding-bottom: 6rem;
+	text-align: center;
+}
+#badges .row {
+	max-width: 1440px;
+}
+#badges .stat {
+	/*border-left: 1px solid rgba(0, 0, 0, 0.12);*/
+	min-height: 17.4rem;
+}
+#badges .stat:first-child {
+	border: none;
+}
+#badges .icon-part i {
+	font-size: 4.8rem;
+	color: #000000;
+}
+#badges .stat-count {
+	color: #FFFFFF;
+	font-size: 3.6rem;
+	margin-top: 1.2rem;
+	margin-bottom: 0;
+	font-family: "poppins-medium", sans-serif;
+	color: white;
+}
+#badges .stat-title {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+/**
+ * responsive:
+ * stats
+ * -------------------------------------------------------------------
+ */
+@media only screen and (max-width:1024px) {
+	#badges .stat:nth-child(n) {
+		/*border-left: 1px solid rgba(255, 255, 255, 0.12);*/
+		padding:1.5rem;
+	}
+	#badges .stat:nth-child(3n+1) {
+		border: none;
+	}
+}
+@media only screen and (max-width:768px) {
+	#badges .stat:nth-child(n) {
+		/*border-left: 1px solid rgba(255, 255, 255, 0.12);*/
+	}
+	#badges .stat:nth-child(2n+1) {
+		border: none;
+	}
+}
+@media only screen and (max-width:600px) {
+	#badges .stat:nth-child(n) {
+		border: none;
+	}
+}
+
+/** 
+ * ===================================================================
+ * 20. scroll - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- 
+ */
 /* width */
-		::-webkit-scrollbar {
-			width: 6px;
+	::-webkit-scrollbar {
+		width: 6px;
 }
 
 /* Track */
-		::-webkit-scrollbar-track {
-			background: #ffffff; 
+	::-webkit-scrollbar-track {
+		background: #ffffff; 
 }
 
 /* Handle */
-		::-webkit-scrollbar-thumb {
-			background: #313131; 
+	::-webkit-scrollbar-thumb {
+		background: #313131; 
 }
 
 /* Handle on hover */
-		::-webkit-scrollbar-thumb:hover {
-			background: #cc005f; 
+	::-webkit-scrollbar-thumb:hover {
+		background: #cc005f; 
 			
 /*# sourceMappingURL=main.css.map */
