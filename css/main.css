@@ -19,8 +19,9 @@
  *  16. stats
  *  17. contact
  *  18. footer
- *  19. badges
+ *  19. orgs
  *  20. scroll
+ *  21. blog
  *
  * =================================================================== 
  */
@@ -1580,7 +1581,7 @@ header .logo a {
 		width: 7.8rem;
 	}
 	.intro-info .lead {
-		padding-left: 11rem;
+		/*padding-left: 11rem;*/
 	}
 	.about-content h3 {
 		text-align: center;
@@ -1874,12 +1875,13 @@ header .logo a {
  */
 @media only screen and (max-width:1024px) {
 	#portfolio .folio-title {
-		font-size: 3.1rem;
+		font-size: 2.8rem;
 	}
 }
 @media only screen and (max-width:768px) {
 	#portfolio .folio-title {
-		font-size: 2.5rem;
+		font-size: 2.2rem;
+		padding: 0 2rem;
 	}
 }
 @media only screen and (max-width:400px) {
@@ -2601,31 +2603,31 @@ footer .copyright span:last-child::after {
 
 /** 
  * ===================================================================
- * 19. badges - (_layout.scss)
+ * 19. orgs - (_layout.scss)
  *
  * ------------------------------------------------------------------- 
  */
-#badges {
+#orgs {
 	background: #FFFFFF;
 	padding-top: 7.2rem;
 	padding-bottom: 6rem;
 	text-align: center;
 }
-#badges .row {
+#orgs .row {
 	max-width: 1440px;
 }
-#badges .stat {
+#orgs .stat {
 	/*border-left: 1px solid rgba(0, 0, 0, 0.12);*/
 	min-height: 17.4rem;
 }
-#badges .stat:first-child {
+#orgs .stat:first-child {
 	border: none;
 }
-#badges .icon-part i {
+#orgs .icon-part i {
 	font-size: 4.8rem;
 	color: #000000;
 }
-#badges .stat-count {
+#orgs .stat-count {
 	color: #FFFFFF;
 	font-size: 3.6rem;
 	margin-top: 1.2rem;
@@ -2633,7 +2635,7 @@ footer .copyright span:last-child::after {
 	font-family: "poppins-medium", sans-serif;
 	color: white;
 }
-#badges .stat-title {
+#orgs .stat-title {
 	color: rgba(255, 255, 255, 0.5);
 }
 
@@ -2643,24 +2645,24 @@ footer .copyright span:last-child::after {
  * -------------------------------------------------------------------
  */
 @media only screen and (max-width:1024px) {
-	#badges .stat:nth-child(n) {
+	#orgs .stat:nth-child(n) {
 		/*border-left: 1px solid rgba(255, 255, 255, 0.12);*/
 		padding:1.5rem;
 	}
-	#badges .stat:nth-child(3n+1) {
+	#orgs .stat:nth-child(3n+1) {
 		border: none;
 	}
 }
 @media only screen and (max-width:768px) {
-	#badges .stat:nth-child(n) {
+	#orgs .stat:nth-child(n) {
 		/*border-left: 1px solid rgba(255, 255, 255, 0.12);*/
 	}
-	#badges .stat:nth-child(2n+1) {
+	#orgs .stat:nth-child(2n+1) {
 		border: none;
 	}
 }
 @media only screen and (max-width:600px) {
-	#badges .stat:nth-child(n) {
+	#orgs .stat:nth-child(n) {
 		border: none;
 	}
 }
@@ -2689,9 +2691,67 @@ footer .copyright span:last-child::after {
 /* Handle on hover */
 	::-webkit-scrollbar-thumb:hover {
 		background: #cc005f; 
-			
+}
 /*# sourceMappingURL=main.css.map */
 
+/** 
+ * ===================================================================
+ * 21. blog - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- 
+ */
+
+#blog {
+	background: #EBEBEB;
+	padding-top: 7.2rem;
+	padding-bottom: 6rem;
+	text-align: center;
+	line-height: 15;
+}
+#blog .row {
+	max-width: 1440px;
+}
+#blog  .medium-widget-article__content {
+	font-family: poppins-regular;
+	line-height: 1.4;
+}
+#blog  .medium-widget-article__info {
+	justify-content: center;
+}
+#blog  .img {
+	width: 35%;
+}
+/**
+ * responsive:
+ * stats
+ * -------------------------------------------------------------------
+ */
+@media only screen and (min-width:1024px) {
+	#blog .medium-widget__wrapper {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	#blog .medium-widget-article__row {
+		width: 25%;
+		margin: 0px;
+	}
+}
+@media only screen and (min-width:600px) and (max-width: 1023px) {
+	#blog .medium-widget__wrapper {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	#blog .medium-widget-article__row {
+		/*display: table-cell;*/
+		width: 50%;
+		margin: 0px;
+	}
+}
+@media only screen and (max-width:600px) {
+
+}
 
 /*
 *

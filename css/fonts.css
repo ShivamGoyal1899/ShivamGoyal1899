@@ -104,3 +104,12 @@
     font-style: normal;
 }
 
+/*
+ * Ralewat 
+================================================================================ */
+@font-face {
+    font-family: 'raleway-regular';
+    src: url('../fonts/raleway/Raleway-Regular.ttf');,
+    font-weight: normal;
+    font-style: normal;
+}
