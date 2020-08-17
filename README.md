@@ -8,8 +8,8 @@ class About extends Me
     {
         return [
             'workplace' => [
-                'company' => 'GoTo',
-                'position' => 'Chief Technology Officer'
+                'company' => '404 Not Found',
+                'position' => 'Looking for SDE Internships for Summers 2020'
             ]
         ];
     }
@@ -29,12 +29,16 @@ class About extends Me
     {
         return [
             'workplace' => [
+                'company' => 'GoToMobility Services Private Limited',
+                'position' => 'Software Developer Engineer Intern - Technology Head'
+            ],
+            'workplace' => [
                 'company' => 'Crossplay LLC',
-                'position' => 'Software Developer'
+                'position' => 'Software Developer - Mobile Dev'
             ],
             'workplace' => [
                 'company' => 'Enappd Technologies',
-                'position' => 'Software Development Engineer Intern'
+                'position' => 'Software Development Engineer Intern - Flutter & ML Dev'
             ]
         ];
     }
@@ -46,7 +50,7 @@ class About extends Me
                 'college' => 'Thapar Institute of Engineering & Technology',
                 'degree' => 'Bachelor of Engineering',
                 'major' => 'Computer Engineering',
-                'specialization' => 'CyberSec'
+                'specialization' => 'CyberSecurity'
             ]
         ];
     }
