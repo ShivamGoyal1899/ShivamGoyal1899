@@ -30,11 +30,7 @@ class About extends Me
         return [
             'workplace' => [
                 'company' => 'GoToMobility Services Private Limited',
-                'position' => 'Software Developer Engineer Intern - Technology Head'
-            ],
-            'workplace' => [
-                'company' => 'Crossplay LLC',
-                'position' => 'Software Developer - Mobile Dev'
+                'position' => 'Software Developer Engineer - Technology Chief'
             ],
             'workplace' => [
                 'company' => 'Enappd Technologies',
