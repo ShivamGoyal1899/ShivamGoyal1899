@@ -8,8 +8,8 @@ class About extends Me
     {
         return [
             'workplace' => [
-                'company' => 'JPNorgan Chase & Co.',
-                'position' => 'Software Engineer Intern - Summer Analyst'
+                'company' => 'JPMorgan Chase & Co.',
+                'position' => 'Software Engineer Intern'
             ]
         ];
     }
