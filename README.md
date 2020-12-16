@@ -8,8 +8,8 @@ class About extends Me
     {
         return [
             'workplace' => [
-                'company' => 'JPMorgan Chase & Co.',
-                'position' => 'Software Engineer Intern'
+                'company' => 'TBU',
+                'position' => '404 Not Found'
             ]
         ];
     }
@@ -28,14 +28,6 @@ class About extends Me
     Past<> getExperience()
     {
         return [
-            'workplace' => [
-                'company' => 'GoToMobility Services',
-                'position' => 'Software Engineer - Flutter & Full Stack Dev'
-            ],
-            'workplace' => [
-                'company' => 'Script Foundation',
-                'position' => 'Software Engineer Intern - Flutter Developer'
-            ],
             'workplace' => [
                 'company' => 'Enappd Technologies',
                 'position' => 'Software Engineer Intern - Flutter & ML Dev'
@@ -56,6 +48,3 @@ class About extends Me
     }
 }
 ```
-<p align=center>
-    <img src="https://komarev.com/ghpvc/?username=ShivamGoyal1899&style=flat-square&color=grey&label=Hello!+Visitor+No.">
-</p>
