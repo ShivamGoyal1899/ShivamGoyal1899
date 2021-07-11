@@ -4,12 +4,12 @@ title ShivamGoyal;
 
 class About extends Me
 {
-    Upcoming<> getFuture()
+    Current<> getPresent()
     {
         return [
             'workplace' => [
-                'company' => 'TBU',
-                'position' => '404 Not Found'
+                'company' => 'Google',
+                'position' => 'Application Engineering Intern'
             ]
         ];
     }
@@ -29,8 +29,12 @@ class About extends Me
     {
         return [
             'workplace' => [
+                'company' => 'Script Foundation
+                'position' => 'Software Engineer Intern - Flutter Dev'
+            ],
+            'workplace' => [
                 'company' => 'Enappd Technologies',
-                'position' => 'Software Engineer Intern - Flutter & ML Dev'
+                'position' => 'Software Engineer Intern - Flutter Dev'
             ]
         ];
     }
