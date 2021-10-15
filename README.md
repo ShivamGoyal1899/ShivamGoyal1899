@@ -4,12 +4,13 @@ title ShivamGoyal;
 
 class About extends Me
 {
-    Current<> getPresent()
+    Future<> getLife()
     {
         return [
             'workplace' => [
-                'company' => 'Google',
-                'position' => 'Application Engineering Intern'
+                'company' => 'Navi Technologies',
+                'position' => 'Software Development Engineer',
+                'profile' => 'backend'
             ]
         ];
     }
@@ -17,11 +18,11 @@ class About extends Me
     Skills<> getTechStack()
     {
         return [
-            'languages' => [  '.dart' '.cpp' '.py' '.js' '.ts' '.java'  ],
-            'frameworks' => [  'flutter' 'firebase' 'node' 'django' 'react'  ],
-            'devops' => [  'git' 'docker' 'k8s' 'jira' 'jenkins' 'ansible'  ],
-            'softwares' => [  'android-studio' 'vs-code' 'chrome' 'windows-terminal'  ],
-            'communication' => [  'slack' 'ms-teams' 'google-chat' 'google-meet'  ]
+            'languages' => [  '.cpp' '.c' '.java' '.dart' '.py' '.js' '.html' '.css'  ],
+            'frameworks & ide' => [  'flutter' 'firebase' 'android-studio' 'vs-code' 'intellij'  ],
+            'vcs & devops' => [  'git' 'mercurial' 'github' 'trello' 'docker' 'k8s' 'jira' 'jenkins'  ],
+            'cloud' => [  'gcp' 'azure' 'google-maps'  ],
+            'misc' => [  'os' 'networks' 'linux' 'sdlc' 'cryptography' 'unit-testing' 'api'  ]
         ];
     }
     
@@ -29,12 +30,24 @@ class About extends Me
     {
         return [
             'workplace' => [
-                'company' => 'Script Foundation
-                'position' => 'Software Engineer Intern - Flutter Dev'
+                'company' => 'Google LLC',
+                'position' => 'Application Engineer Intern'
+                'profile' => 'backend'
+            ],
+            'workplace' => [
+                'company' => 'Agency Coda',
+                'position' => 'Freelance Software Engineer'
+                'profile' => 'flutter'
+            ],
+            'workplace' => [
+                'company' => 'Script Foundation',
+                'position' => 'Software Engineer Intern'
+                'profile' => 'flutter'
             ],
             'workplace' => [
                 'company' => 'Enappd Technologies',
-                'position' => 'Software Engineer Intern - Flutter Dev'
+                'position' => 'Software Engineer Intern'
+                'profile' => 'flutter'
             ]
         ];
     }
@@ -45,7 +58,7 @@ class About extends Me
             'education' => [
                 'college' => 'Thapar Institute of Engineering & Technology',
                 'degree' => 'Bachelor of Engineering',
-                'major' => 'Computer Engineering',
+                'major' => 'Computer Science & Engineering',
                 'focus' => 'Information and Cyber Security'
             ]
         ];
