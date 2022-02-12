@@ -15,6 +15,17 @@ class About extends Me
         ];
     }
 
+    Present<> getWork()
+    {
+        return [
+            'workplace' => [
+                'company' => 'Agency Coda',
+                'position' => 'Software Engineer',
+                'profile' => 'flutter'
+            ]
+        ];
+    }
+
     Skills<> getTechStack()
     {
         return [
@@ -31,22 +42,22 @@ class About extends Me
         return [
             'workplace' => [
                 'company' => 'Google LLC',
-                'position' => 'Application Engineer Intern'
+                'position' => 'Application Engineer'
                 'profile' => 'backend'
             ],
             'workplace' => [
                 'company' => 'Agency Coda',
-                'position' => 'Freelance Software Engineer'
+                'position' => 'Software Engineer'
                 'profile' => 'flutter'
             ],
             'workplace' => [
                 'company' => 'Script Foundation',
-                'position' => 'Software Engineer Intern'
+                'position' => 'Software Engineer'
                 'profile' => 'flutter'
             ],
             'workplace' => [
                 'company' => 'Enappd Technologies',
-                'position' => 'Software Engineer Intern'
+                'position' => 'Software Engineer'
                 'profile' => 'flutter'
             ]
         ];
