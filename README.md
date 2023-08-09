@@ -10,4 +10,4 @@ I'm a Software Engineer from India.
 
 <p>🌐 <a href="https://goyalshivam.com?ref=github.com"><b>Check out my website</b></a></p>
 
-<p><a href="https://github.com/ganapativs/react-spectrum"><img src="https://github.com/ShivamGoyal1899/ShivamGoyal1899/raw/master/assets/footer-bg.png" width="100%" /></a></p>
+<p><img src="https://github.com/ShivamGoyal1899/ShivamGoyal1899/raw/master/assets/footer-bg.png" width="100%" /></p>
